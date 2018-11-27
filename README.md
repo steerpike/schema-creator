@@ -1,4 +1,11 @@
-# schema
+
+# Schema Builder
+
+This is a project that's a small experiment on the feasibility of having an inline schema builder that might
+plug into a WYSIWYG editor to allow for named entity definitions within chunks of otherwise unstructured text.
+
+Basically, the use case is to provide linked data connections embedded within things like blog posts or news 
+articles.
 
 ## Project setup
 ```
@@ -15,15 +22,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+## Built With
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [Vue](https://vuejs.org/) - Vue
+* [Schema](https://schema.org) - Schema entities
